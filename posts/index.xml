@@ -6,10 +6,31 @@
     <description>Recent content in Posts on 鹅掌楸的一生</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Sep 2019 14:28:28 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Sep 2019 15:47:45 +0800</lastBuildDate>
     
 	<atom:link href="./posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CSS知识总结</title>
+      <link>./posts/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sat, 14 Sep 2019 15:47:45 +0800</pubDate>
+      
+      <guid>./posts/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</guid>
+      <description>浏览器渲染过程 三棵树,三步骤 三棵树:  HTML树(DOM)
+ CSS树(CSSOM)
+ 上面两颗树合在一起就是render tree
+  三步骤:  布局
+ 绘制
+ 合成
+  用JS更新样式时会发生什么?  执行JS 算出修改的样式是什么 布局 绘制 合成  三步骤不一定全部执行
+不需要绘制的情况 单纯的改变颜色,布局没有变化,这个比较好理解
+奇怪是是只需要合成的情况,不一样的浏览器对不同的样式改变有不同的处理方式 具体可以看这个网站csstriggers.com
+对于绘制也是这个样子的
+CSS动画 transition和animation 关于transition和animation,
+我觉得transition比较适合做那种点到点的动画,也就是从一种形态变成另一种形态
+而animation适合做中间态变化多的动画,因为它可以定义keyframe更精确的控制时间线而不需要JS的帮助</description>
+    </item>
     
     <item>
       <title>CSS维护心得</title>
